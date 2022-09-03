@@ -2,9 +2,16 @@
 
 def main():
     frase = input("Input frase with 🙂 or 🙁: ")
-    convert()
+    convert(frase)
+    
 
 #define convert fuction
+
+def convert(n):
+    n = n.replace(":)", "🙂").replace(":(", "🙁")
+    print(n)
+    
+
 
 main()
 
