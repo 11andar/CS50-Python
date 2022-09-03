@@ -1,7 +1,7 @@
 def einstein():
 
 #get input from user
-    mass = float(input("Mass: "))
+    mass = int(input("Mass: "))
 
 #assign value to 'c'
     c = 300000000
@@ -10,6 +10,6 @@ def einstein():
     E = mass * c ** 2
 
 #output result
-
+    print(f"Result: {E}")
 
 einstein()
