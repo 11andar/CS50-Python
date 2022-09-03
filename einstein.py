@@ -4,7 +4,8 @@ def einstein():
     mass = float(input("Mass: "))
 
 #assign value to 'c'
-    
+    c = 300000000
+
 #how to calculate 'E'
 
 
