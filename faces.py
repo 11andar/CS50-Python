@@ -5,13 +5,12 @@ def main():
     convert(frase)
     
 
-#define convert fuction
+#Define convert fuction
 
 def convert(n):
     n = n.replace(":)", "🙂").replace(":(", "🙁")
     print(n)
     
-
 
 main()
 
