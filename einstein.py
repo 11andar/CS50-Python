@@ -7,7 +7,7 @@ def einstein():
     c = 300000000
 
 #how to calculate 'E'
-
+    E = mass * c ** 2
 
 #output result
 
