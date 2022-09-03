@@ -1,6 +1,13 @@
 def main():
     v = input("Input: ")
-    lowercase()
+    lowercase(v)
+
+def lowercase(v):
+    v = v.lower()
+    print(f"{v}")
+
+main()
+    
 
 
 
