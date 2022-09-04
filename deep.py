@@ -14,7 +14,7 @@ def check(a):
         print("Yes")
     elif a == a_list[2]:
         print("Yes")
-    
-    # else output "no"
+    else:                            # else output "no"
+        print("No")
 
 main()
