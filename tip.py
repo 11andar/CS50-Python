@@ -6,8 +6,10 @@ def main():
 
     # Calculate tip
     tip = dollars * percent
-    
+
     # Output tip value
+    print(f"{tip:.2f}")
+    
 
 def dollars_to_float(d):
 
