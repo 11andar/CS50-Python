@@ -4,6 +4,8 @@ def main():
     check(greeting)
 
 # implement function which checks greeting
+def check(g):
+    pay_list = ["$0", "$20", "$100"]
 
 # output $0 if the greeting contains "hello"
 
