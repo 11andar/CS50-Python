@@ -4,9 +4,11 @@ def main():
     file = file.lower()
     extension(file)
 
-def extension():
+def extension(f):
 
 #create list of available file extensions
+    file_extentions = ["GIF/.gif", "IMAGE/.jpeg", "PNG/.png", "PDF/.pdf", "TXT/.txt", "ZIP/.zip"]
+    error = "application/octet-stream" 
 
 #recognize file by ".extension"
 
