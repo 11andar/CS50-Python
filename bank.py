@@ -1,5 +1,7 @@
 def main():
 # prompt user for greeting
+    greeting = input("Greeting: ")
+    check(greeting)
 
 # implement function which checks greeting
 
