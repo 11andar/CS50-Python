@@ -1,5 +1,8 @@
 def main():
 # prompt user for file name and extention
+    file = input("Name of file: ")
+    file = file.lower()
+    extention(file)
     
 # implement function that checks the file extention
 def extention():
