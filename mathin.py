@@ -3,6 +3,7 @@ def main():
     expression = input("Expression: ")
 
 # assign values to variables x, y, z
+    x,y,z = expression.split(" ")
 
 # change x and z into floats
 
