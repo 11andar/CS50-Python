@@ -10,6 +10,8 @@ def main():
     z = float(z)
 
 # create lists of operators and mathematical operations
+    operators = ["+", "-", "*", "/", "**", "%"]
+    math_ops = [x + z, x - z, x * z, x / z, x ** z, x % z]
 
 # output appropriate operations and their results
 
