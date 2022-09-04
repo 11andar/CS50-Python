@@ -1,5 +1,7 @@
 def main():
     # get input from user
+    answear = input("What's the answear? ")
+    check()
 
     # implement 'check' function
 
