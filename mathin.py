@@ -6,6 +6,8 @@ def main():
     x,y,z = expression.split(" ")
 
 # change x and z into floats
+    x = float(x)
+    z = float(z)
 
 # create lists of operators and mathematical operations
 
