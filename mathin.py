@@ -1,5 +1,6 @@
 def main():
 # prompt user for an arithmetic expression
+    expression = input("Expression: ")
 
 # assign values to variables x, y, z
 
