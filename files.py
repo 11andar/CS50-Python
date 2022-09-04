@@ -1,6 +1,8 @@
 def main():
 #prompt user for file name and extension
-
+    file = input("File name: ")
+    file = file.lower()
+    extension(file)
 
 def extension():
 
