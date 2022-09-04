@@ -16,5 +16,7 @@ def check(g):
         print(pay_list[1])
 
 # output $100 if it's other greeting
-
+    else:
+        print(pay_list[2])
+        
 main()
