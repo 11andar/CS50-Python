@@ -8,15 +8,19 @@ def main():
     tip = dollars * percent
 
     # Output tip value
-    print(f"{tip:.2f}")
-    
+    print(f"${tip:.2f}")
+
 
 def dollars_to_float(d):
 
     # remove '$' and return amout as a float
+    d = d.replace("$", "")
+    return float(d)
 
 def percent_to_float(p):
 
     # remove "%" and return as a float
+    p = p.replace("%", "")
+    return float(p) / 100
 
 main()
