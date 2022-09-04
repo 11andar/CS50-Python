@@ -12,6 +12,8 @@ def check(g):
         print(pay_list[0])
 
 # output $20 if the greeting startswith "h" but not "hello"
+    elif g.startswith("h"):
+        print(pay_list[1])
 
 # output $100 if it's other greeting
 
