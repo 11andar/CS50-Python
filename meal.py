@@ -1,9 +1,13 @@
 def main():
     # prompt user for time
+    time = input("What's the time? ")
     
     # assign values to hours and minutes
+    hours, minutes = time.split(":")
+
 
     # call convert()
+    convert(time)
 
 
 def convert(time):
