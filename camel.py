@@ -1,5 +1,6 @@
 def main():
     # Get name of a variable in camelCase from user
+    camel_case = input("camelCase: ")
 
     # Call camel_to_snake()
  
