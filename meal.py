@@ -2,10 +2,6 @@ def main():
     # prompt user for time
     time = input("What's the time? ")
     
-    
-    
-
-
     # call convert()
     convert(time)
 
@@ -16,7 +12,6 @@ def convert(time):
 
     # assign values to hours and minutes
     hours, minutes = time.split(":")
-    
     
     # convert hours and minutes to float
     new_hours = float(hours)
