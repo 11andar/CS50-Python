@@ -3,6 +3,7 @@ def main():
     camel_case = input("camelCase: ")
 
     # Call camel_to_snake()
+    camel_to_snake(camel_case)
  
 def camel_to_snake():
     # Iterate over each character of user's input to find uppercase letters
