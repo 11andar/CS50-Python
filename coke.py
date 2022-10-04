@@ -11,5 +11,8 @@ while prize > 0:
 
     prize = prize - insert
  
+    # Print change owed at the end
+    if prize <= 0:
+        print(f"Change Owed: {prize * -1}")
 
-# Print change owed at the end
+        break
