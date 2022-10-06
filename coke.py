@@ -1,18 +1,24 @@
-# Print ammount due and prompt user for inserting a coin
-# Each time user inserts a coin inform him about ammount due left and prompt for a coin again
+# Define main() function
 
-prize = 50
+def main():
+    
+    # Print ammount due and prompt user for inserting a coin
+    # Each time user inserts a coin inform him about ammount due left and prompt for a coin again
 
-while prize > 0:
-    print(f"Ammount Due: {prize}")
+    prize = 50
 
-# User can only insert 25, 10 or 5 cents
-    insert = int(input("Insert Coin [25, 10, 5]: "))
+    while prize > 0:
+        print(f"Ammount Due: {prize}")
 
-    prize = prize - insert
+    # User can only insert 25, 10 or 5 cents
+        insert = int(input("Insert Coin [25, 10, 5]: "))
+
+        prize = prize - insert
  
     # Print change owed at the end
-    if prize <= 0:
-        print(f"Change Owed: {prize * -1}")
+        if prize <= 0:
+            print(f"Change Owed: {prize * -1}")
 
-        break
+            break
+
+main()
