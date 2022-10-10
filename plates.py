@@ -3,9 +3,12 @@ def main():
     # Take input from user 
     plate = input("Plate: ")
     # If plate is valid print 'Valid'
-
+    if is_valid(plate) is True:
+        print("Valid")
     # Else print 'Invalid'
-
+    else:
+        print("Invalid")
+        
 # Define is_valid()
 
     # Must start with at least two letters
