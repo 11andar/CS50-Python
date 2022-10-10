@@ -4,8 +4,12 @@ def main():
     # Take input from user
     word = input("Input: ")
 
-# Define short() function
+    short(word)
 
+# Define short() function
+def short(w):
+    #Create list of vowels
+    vowel = ["a", "e", "u", "i", "o"]
     # Iterate over each character of input to find vowels
 
     # Print user's word without vowels
