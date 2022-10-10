@@ -1,7 +1,7 @@
 # Define main()
-
+def main():
     # Take input from user 
-
+    plate = input("Plate: ")
     # If plate is valid print 'Valid'
 
     # Else print 'Invalid'
