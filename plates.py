@@ -15,12 +15,14 @@ def main():
 # Define is_valid()
 def is_valid(p):
     for character in p:
+        
+        # Minimum 2 and maximum 6 characters
+        if len(p) < 2 or len(p) > 6:
+            return False
+
         # Must start with at least two letters
         if p[0:2].isalpha():
             return True
-        
-        # Minimum 2 and maximum 6 characters
-    
         
         # Numbers at the end
 
@@ -29,4 +31,6 @@ def is_valid(p):
 
         
         # No special signs
+
+
 main()
