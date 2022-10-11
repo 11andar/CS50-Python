@@ -21,11 +21,10 @@ def is_valid(p):
             return False
 
         # Must start with at least two letters
-        if p[0:2].isalpha():
+        elif p[0:2].isalpha():
             return True
         
         # Numbers at the end
-
         
         # First number cannot be 0
 
