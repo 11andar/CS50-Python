@@ -16,18 +16,19 @@ def main():
 def is_valid(p):
     for character in p:
         
+        # Numbers at the end
+        if p[-1].isalpha():
+            return False 
+        
         # Minimum 2 and maximum 6 characters
         if len(p) < 2 or len(p) > 6:
             return False
 
         # Must start with at least two letters
-        elif p[0:2].isalpha():
+        if p[0:2].isalpha():
             return True
         
-        # Numbers at the end
-        
-        # First number cannot be 0
-
+       # First number cannot be 0
         
         # No special signs
 
