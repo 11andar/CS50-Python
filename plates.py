@@ -29,7 +29,15 @@ def is_valid(p):
             return False
         
         # First number cannot be 0
-        
+        i = 0
+        while i < len(p):
+            if p[i].isalpha() == False:
+                if p[i] == '0':
+                    return False
+                else:
+                    break
+            i += 1
+           
 
         
         # No special signs allowed
