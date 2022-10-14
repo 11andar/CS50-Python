@@ -38,14 +38,14 @@ def is_valid(p):
                     break
             i += 1
            
-
-        
         # No special signs allowed
 
-    
+              
+        if character.isalpha() == False and character.isnumeric() == False:
+            return False
+         
     
     return True
         
-
 
 main()
