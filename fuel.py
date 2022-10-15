@@ -5,6 +5,9 @@ def main():
 
 # If there is 99% or more output F
 
+# Else output how full is the tank (in %)
+
 # Ignore ValueError and ZeroDivisionError
+
 
 main()
