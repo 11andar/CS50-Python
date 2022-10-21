@@ -1,13 +1,13 @@
 def main():
     
-    
+    try:
     # Prompt user for fraction formatted as X/Y
         fraction = input("Fraction: ")
     
     # Assign first value to x and second value to y    
         x, y = fraction.split("/")
 
-    # Convert values to floats
+    # Convert values to ints
         x = int(x)
         y = int(y)
         
@@ -22,7 +22,10 @@ def main():
     # Else output how full is the tank (in %)
         else:
             print(f"Your tank is {divide}% full")
-    # Ignore ValueError and ZeroDivisionError
     
+    # Ignore ValueError and ZeroDivisionError
+    except (ValueError, ZeroDivisionError):
+        pass
+
 
 main()
