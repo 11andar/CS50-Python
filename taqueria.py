@@ -16,8 +16,10 @@ def main():
     }
 
     # Display products and their cost
-    
-    # Run the program in a loop
+    for product in products:
+        print(f"{product}: {products[product]:.2f}")
+
+    # Run the product choice in a loop
 
         # try
             
