@@ -1,4 +1,9 @@
+from asyncio.proactor_events import _ProactorDuplexPipeTransport
+
+
 def main():
+    
+    print()
     
     # Create a dictionary (producuct : cost)
     products = {
@@ -15,32 +20,39 @@ def main():
     
     }
 
+    
+
     # Display products and their cost
     for product in products:
-        print(f"{product}: {products[product]:.2f}")
+        
+        p = float(products[product])
+
+        print(f"{product}: {p:.2f}")
+
+    print()
 
     # Run the product choice in a loop
-
+    while True:
         # try
-            
+        try:
             # Get an item from user
-
+            item = input("Item: ")
             # Convert input to titlecase() 
-
+            item = item.title()
             # Calculate total cost
-
+            
+            
+            # Display total cost formatted to two decimal points
             # Prefix total cost with '$'
-
-            # Format total cost to two decimal points
-
-            # Display total cost
-
+            print(f"Total: ${total:.2f}")
         # except
-
-            # Ignore products that are not in the dictionary
-
-            # Ignore KeyError
-
-            # End the program when the user inputs ctrl+D  
+        # Ignore KeyError
+        # Ignore products that are not in the dictionary
+        except (ValueError, KeyError):
+            pass
+        # End the program using ctrl+D
+        except EOFError:
+            print()
+            break
 
 main()
