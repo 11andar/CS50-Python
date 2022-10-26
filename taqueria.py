@@ -32,19 +32,23 @@ def main():
     print()
 
     # Run the product choice in a loop
+    total = 0
     while True:
         # try
+        
         try:
             # Get an item from user
             item = input("Item: ")
             # Convert input to titlecase() 
             item = item.title()
             # Calculate total cost
-            
+        
+            total = total + products[item]
             
             # Display total cost formatted to two decimal points
             # Prefix total cost with '$'
             print(f"Total: ${total:.2f}")
+
         # except
         # Ignore KeyError
         # Ignore products that are not in the dictionary
